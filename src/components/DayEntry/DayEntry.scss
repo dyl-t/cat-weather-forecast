@@ -1,0 +1,26 @@
+.day-entry {
+  &__outer {
+    padding: 0.5rem;
+    margin: 1rem 1rem 0 1rem;
+    background-color: rgb(214, 214, 214);
+    justify-content: flex-start;
+    border-radius: 0.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__image {
+    width: 16rem;
+    max-height: 16rem;
+    border-radius: 0.5rem;
+  }
+
+  &__label {
+    padding-bottom: 0.5rem;
+  }
+
+  &__info {
+    padding-top: 0.5rem;
+  }
+}

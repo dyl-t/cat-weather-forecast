@@ -1,0 +1,32 @@
+.day-grid {
+  &__outer {
+    max-width: 80rem;
+    padding: 1rem 1rem 2rem 1rem;
+    background-color: rgb(255, 255, 255);
+    border: rgb(0, 0, 0) 2px solid;
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  &__button {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    width: 5rem;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    outline: none;
+    background-color: #133a9e;
+    color: white;
+    border: none;
+    border-radius: 3rem;
+
+    &:hover {
+      background-color: #132a66;
+    }
+  }
+}

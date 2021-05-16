@@ -1,0 +1,20 @@
+.logo-image {
+  position: absolute;
+  top: -6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &__image {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 10rem;
+    background-color: black;
+  }
+
+  h1 {
+    padding-top: 1rem;
+    font-size: 14pt;
+  }
+}

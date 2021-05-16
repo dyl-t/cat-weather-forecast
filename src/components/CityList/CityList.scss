@@ -1,0 +1,29 @@
+.city-list {
+  width: 100%;
+  margin: 1rem 0;
+
+  ul {
+    max-height: 7rem;
+    list-style-type: none;
+    overflow-y: auto;
+    padding-top: 0.5rem;
+  }
+
+  li {
+    font-size: 10pt;
+  }
+
+  button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+
+    &:hover {
+      color: red;
+    }
+
+    &:active {
+      color: rgb(177, 0, 0);
+    }
+  }
+}
