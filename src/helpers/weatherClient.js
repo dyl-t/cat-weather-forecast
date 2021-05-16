@@ -1,8 +1,6 @@
 
 import { useState } from 'react';
 
-import { parseISOString } from './dateHelpers'
-
 const useWeatherClient = () => {
   const API_KEY = process.env.REACT_APP_API_KEY;
   const BASE_URL = 'https://api.troposphere.io/';
@@ -42,7 +40,7 @@ const useWeatherClient = () => {
 
       return daily.map((day, i) => ({
         id: i,
-        date: parseISOString(day.time),
+        date: new Date(Date.parse(day.time)),
         type: day.type,
         temperature: day.temperature,
       }));
